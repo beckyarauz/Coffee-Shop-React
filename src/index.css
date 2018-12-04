@@ -7,8 +7,44 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+h1,h2,h3,h4{
+  font-family: 'Hammersmith One', sans-serif;
+  color:wheat;
+}
+
+.banner-children{
+  display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    position: relative;
+}
+.parallax-inner,.banner-image{
+  display: 100vh;
+}
+
+.myNav{
+  background-color: #692027;
+}
+
+.socialIcon{
+  max-width: 70px;
+  margin:3px;
+}
+
+.carousel .item img{
+  width:100%;
+}
+
+.Gallery .carousel{
+  max-height: 70vh;
+}
+.Gallery .carousel-inner{
+  max-height: 70vh;
+}
+

@@ -1,0 +1,16 @@
+/* .Info{
+    height: 100vh;
+} */
+.InfoItems{
+    padding:20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-wrap: wrap;
+    background-color: rgb(139,31,44,0.8);
+}
+
+@media (min-width: 376px){
+    flex-direction: row;
+}
+

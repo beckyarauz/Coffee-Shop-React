@@ -1,0 +1,22 @@
+{
+    "items" :[
+        {
+            "id":"1", 
+            "name":"Cappuccino", 
+            "price": "3.50",
+            "description": "Cappuccino is considered mostly a breakfast beverage in Italy, while espressos are enjoyed any time of day."
+        },
+        {
+            "id":"2", 
+            "name":"Caramel", 
+            "price": "2.50",
+            "description": "Cappuccino is considered mostly a breakfast beverage in Italy, while espressos are enjoyed any time of day."
+        },
+        {
+            "id":"3", 
+            "name":"Mochaccino", 
+            "price": "4.50",
+            "description": "Cappuccino is considered mostly a breakfast beverage in Italy, while espressos are enjoyed any time of day."
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+.Map{
+    height: 50vh;
+    background-color: white;
+    
+}
+
+.MapLink{
+    border: none;
+    height: 50vh;
+    width: 100%;
+}
+/* #map {
+    height: 50vh;
+  } */
+  /* width="600" height="450" frameborder="0" style="border:0"  */

@@ -1,0 +1,9 @@
+.MenuItem{
+    max-width: 200px;
+}
+
+@media (min-width: 600px){
+    .MenuItem{
+        margin:20px 40px;
+    }
+}

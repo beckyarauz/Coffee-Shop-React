@@ -1,0 +1,64 @@
+.About{
+    height: 130vh;
+    margin: 0;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.About h1{
+    margin: 0;
+    color: wheat;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.About-text{
+    max-width: 40vw;
+    min-width: 300px;
+    font-size: calc(10px + 1vmin);
+}
+
+.About-pic1,.About-pic2{
+    width: 100%;
+    height: 25vh;
+}
+.About-pic1{
+    background-image: url('./images/inside.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+}
+.About-pic2{
+    background-image: url('./images/PlaceOutsideFront.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -30px;
+}
+
+.About-text-container{
+    background-color: #52191f;
+    padding: 20px;
+    height: 80vh;
+    width: 100%;
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:460px){
+    .About-text{
+        font-size: calc(10px + 0.8vmin);
+        min-width: 150px;
+    }
+}
+@media (min-width:600px){
+    .About-text-container{
+        flex-direction: row;
+        justify-content: space-between;
+        text-align: center;
+        margin: 0 15px;
+    }
+}

@@ -1,0 +1,38 @@
+.Partners{
+    height: 80vh;
+    background-image:url('./images/concrete1.jpg');
+    background-size:cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Partners h1{
+    margin:0;
+    color:rgb(56, 53, 53);
+}
+
+/* .PartnersLogos{
+    margin:20px;
+} */
+.fly{
+    max-height: 70px;
+}
+.riders{
+    max-width: 150px;
+}
+.quijote{
+    max-width: 200px;
+    height: 100px;
+}
+
+.PartnerItems{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}

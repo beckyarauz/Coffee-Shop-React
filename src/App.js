@@ -1,26 +1,37 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import { ParallaxProvider } from 'react-scroll-parallax';
+
+import Heading from './Components/Heading/Heading';
+import NavBar from './Components/NavBar/NavBar';
+import About from './Components/About/About';
+import Quote from './Components/Quote/Quote';
+import Info from './Components/Info/Info';
+import Menu from './Components/Menu/Menu';
+import Gallery from './Components/Gallery/Gallery';
+import Map from './Components/Map/Map';
+import Partners from './Components/Partners/Partners';
 
 class App extends Component {
   render() {
     return (
+      
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <NavBar />
+        <Heading />
+        <ParallaxProvider>
+        <About />
+        </ParallaxProvider>
+        <Quote />
+        <Menu />
+        <Gallery />
+        <Partners />
+        <Map/>
+        <Info />
       </div>
+      
+      
     );
   }
 }

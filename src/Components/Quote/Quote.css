@@ -1,0 +1,41 @@
+.Quote{
+    height:50vh;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-align: left;
+    background-color: white;
+    position: relative;
+    background-image: url('./images/concrete.png');
+    overflow: hidden;
+}
+
+.Quote p{
+    color:black;
+    font-size: calc(10px + 5vmin);
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+}
+
+#sorrento{
+    max-width: 300px;
+    position: absolute;
+    right:-150px;
+    bottom:0;
+}
+
+.QuoteTextContainer{
+    max-width: 60%;
+}
+
+.Quote-Banner{
+    padding: 15px 20px;
+    position: absolute;
+    width: 100%;
+    background-color: rgba(255, 248, 248, 0.5);
+}
+
+.Author{
+    text-align: right;
+}

@@ -1,0 +1,17 @@
+.Menu {
+    color:whitesmoke;
+}
+
+.Menu-Title{
+    margin-top: 25px;
+}
+
+.Menu-Title h1{
+    margin: 0;
+}
+
+.Menu .banner-children{
+    display: flex;
+    justify-content: center;
+    align-items: space-between;
+}
